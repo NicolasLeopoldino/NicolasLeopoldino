@@ -22,7 +22,6 @@ Para ejecutar este proyecto, necesitas tener instalados los siguientes paquetes 
 
 Puedes instalar todas las dependencias ejecutando:
 
-```bash
 pip install -r requirements.txt
 
 #ENGLISH
