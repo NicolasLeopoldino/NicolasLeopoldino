@@ -1,5 +1,3 @@
-##SPANSISH
-
 ## Descripción
 
 El **Sistema de Fichaje Ejecutivo para empleados** es una aplicación de escritorio desarrollada en Python que permite a los usuarios iniciar sesión mediante LDAP (por ejemplo, en un servidor de Active Directory) y registrar su entrada y salida de manera eficiente. La aplicación está construida utilizando PyQt5 para la interfaz gráfica y se conecta a una base de datos SQL Server para almacenar los registros de fichaje.
@@ -26,7 +24,6 @@ Puedes instalar todas las dependencias ejecutando:
 pip install -r requirements.txt
 ```
 
-#ENGLISH
 
 ## Description
 
