@@ -1,0 +1,54 @@
+QPushButton {
+    background-color: #003366; /* Color azul oscuro para los botones de fichaje */
+    color: white; /* Texto blanco */
+    border: none; /* Sin borde */
+    border-radius: 5px; /* Bordes redondeados */
+    padding: 12px; /* Relleno */
+    font-family: 'Arial', 'Helvetica', sans-serif; /* Fuente minimalista */
+    font-weight: normal; /* Normal, menos bold */
+    font-size: 16px; /* Tamaño de fuente */
+    width: 350px; /* Ancho fijo, más largo */
+    height: 40px; /* Altura fija, menos alto */
+}
+QPushButton:hover {
+    background-color: #002244; /* Color azul aún más oscuro cuando se pasa el ratón por encima */
+}
+QPushButton:pressed {
+    background-color: #001a33; /* Color azul aún más oscuro cuando se presiona el botón */
+}
+
+QPushButton#minimizeButton {
+    background: transparent; /* Fondo transparente */
+    color: #3399ff; /* Texto azul claro */
+    border: none; /* Sin borde */
+    font-family: 'Arial', 'Helvetica', sans-serif; /* Fuente minimalista */
+    font-weight: bold; /* Negrita */
+    font-size: 14px; /* Tamaño de fuente */
+    width: 30px; /* Ancho del botón */
+    height: 30px; /* Altura del botón */
+    padding: 0; /* Sin relleno */
+}
+QPushButton#minimizeButton:hover {
+    color: #007bff; /* Color azul más oscuro cuando se pasa el ratón por encima */
+}
+QPushButton#minimizeButton:pressed {
+    color: #0056b3; /* Color azul aún más oscuro cuando se presiona el botón */
+}
+
+QPushButton#closeButton {
+    background: transparent; /* Fondo transparente */
+    color: #ff4d4d; /* Texto rojo claro */
+    border: none; /* Sin borde */
+    font-family: 'Arial', 'Helvetica', sans-serif; /* Fuente minimalista */
+    font-weight: bold; /* Negrita */
+    font-size: 14px; /* Tamaño de fuente */
+    width: 30px; /* Ancho del botón */
+    height: 30px; /* Altura del botón */
+    padding: 0; /* Sin relleno */
+}
+QPushButton#closeButton:hover {
+    color: #e60000; /* Color rojo más oscuro cuando se pasa el ratón por encima */
+}
+QPushButton#closeButton:pressed {
+    color: #cc0000; /* Color rojo aún más oscuro cuando se presiona el botón */
+}
